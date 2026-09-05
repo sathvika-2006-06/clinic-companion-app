@@ -1,0 +1,50 @@
+.DS_Store
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.venv
+.env
+.env.local
+.env.*.local
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+.idea/
+*.iml
+
+# IDE
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+.gradle
+.classpath
+.project
+.settings/
+*.sublime-workspace
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
