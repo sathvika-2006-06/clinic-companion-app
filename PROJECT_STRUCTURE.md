@@ -105,63 +105,14 @@ clinic-companion-app/
 │   │   │   └── notification_provider.dart
 │   │   ├── screens/
 │   │   │   ├── auth/
-│   │   │   │   ├── splash_screen.dart
-│   │   │   │   ├── login_screen.dart
-│   │   │   │   ├── role_selection_screen.dart
-│   │   │   │   └── forgot_password_screen.dart
 │   │   │   ├── student/
-│   │   │   │   ├── dashboard_screen.dart
-│   │   │   │   ├── preparation_screen.dart
-│   │   │   │   ├── preparation_detail_screen.dart
-│   │   │   │   ├── case_list_screen.dart
-│   │   │   │   ├── add_case_screen.dart
-│   │   │   │   ├── case_detail_screen.dart
-│   │   │   │   ├── create_referral_screen.dart
-│   │   │   │   ├── referral_confirmation_screen.dart
-│   │   │   │   ├── my_referrals_screen.dart
-│   │   │   │   ├── referral_detail_screen.dart
-│   │   │   │   ├── notifications_screen.dart
-│   │   │   │   └── profile_screen.dart
 │   │   │   ├── faculty/
-│   │   │   │   ├── dashboard_screen.dart
-│   │   │   │   ├── referral_queue_screen.dart
-│   │   │   │   ├── referral_detail_screen.dart
-│   │   │   │   ├── assign_location_screen.dart
-│   │   │   │   ├── student_activity_screen.dart
-│   │   │   │   ├── patient_tracking_screen.dart
-│   │   │   │   ├── analytics_screen.dart
-│   │   │   │   └── profile_screen.dart
 │   │   │   ├── patient/
-│   │   │   │   ├── referral_home_screen.dart
-│   │   │   │   ├── referral_detail_screen.dart
-│   │   │   │   ├── navigation_screen.dart
-│   │   │   │   ├── reporting_time_screen.dart
-│   │   │   │   └── notifications_screen.dart
 │   │   │   └── admin/
-│   │   │       ├── dashboard_screen.dart
-│   │   │       ├── user_management_screen.dart
-│   │   │       ├── department_management_screen.dart
-│   │   │       ├── location_management_screen.dart
-│   │   │       ├── posting_management_screen.dart
-│   │   │       ├── preparation_management_screen.dart
-│   │   │       └── settings_screen.dart
 │   │   ├── widgets/
 │   │   │   ├── common/
-│   │   │   │   ├── app_bar.dart
-│   │   │   │   ├── bottom_nav.dart
-│   │   │   │   ├── loading_indicator.dart
-│   │   │   │   ├── error_dialog.dart
-│   │   │   │   └── empty_state.dart
 │   │   │   ├── cards/
-│   │   │   │   ├── referral_card.dart
-│   │   │   │   ├── case_card.dart
-│   │   │   │   ├── notification_card.dart
-│   │   │   │   └── stat_card.dart
 │   │   │   └── forms/
-│   │   │       ├── input_field.dart
-│   │   │       ├── priority_selector.dart
-│   │   │       ├── department_selector.dart
-│   │   │       └── date_time_picker.dart
 │   │   └── utils/
 │   │       ├── app_colors.dart
 │   │       ├── app_text_styles.dart
@@ -206,7 +157,7 @@ clinic-companion-app/
 
 ### Frontend (Flutter)
 - Clean, modern Material Design 3 UI
-- State management with Riverpod/Provider
+- State management with Provider/Riverpod
 - Local secure storage for tokens
 - Offline capability
 - Real-time notifications
